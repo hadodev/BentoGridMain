@@ -1,0 +1,32 @@
+@font-face {
+    font-weight: 500;
+    font-family: 'DM Sans';
+    font-style: normal;
+    src: local('DM Sans Medium'), local('DMSans-Medium'),
+        url('../fonts/static/DMSans-Medium.woff2') format('woff2'),
+        url('../fonts/static/DMSans-Medium.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: 'DM Sans';
+    font-style: normal;
+    src: local('DM Sans Regular'), local('DMSans-Regular'),
+        url('../fonts/static/DMSans-Regular.woff2') format('woff2'),
+        url('../fonts/static/DMSans-Regular.woff') format('woff');
+    font-display: swap;
+}
+
+
+@supports (font-variation-settings: normal) {
+    @font-face {
+        font-weight: 400 500;
+        font-family: "DM Sans";
+        font-stretch: 50% 200%;
+        font-display: swap;
+        src: local('DM Sans 9pt Regular'), local('DMSans-9ptRegular'),
+             url("../fonts/DMSans-9ptRegular.woff2") format(woff2) tech(variations),
+             url("../fonts/DMSans-9ptRegular.woff2") format("woff2-variations");
+    }
+}
