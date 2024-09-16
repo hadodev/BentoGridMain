@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repository solution URL here](https://github.com/hadodev/bentogridmain)
+- Solution URL: [Github repository solution URL here](https://github.com/hadodev/BentoGridMain)
 - Live Site URL: [Live site URL here](https://hadodev-frontendmentor-bentogridmain.netlify.app/)
 
 ## My process
